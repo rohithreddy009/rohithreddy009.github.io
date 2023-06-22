@@ -2,7 +2,7 @@
   {
     "name": "CSS Taco",
     "desc": "Taco website made with pure CSS",
-    "image": "issuetrack",
+    "image": "taco",
     "category": "basicweb",
     "links": {
       "view": "https://css-taco.netlify.app/",
@@ -12,7 +12,7 @@
   {
     "name": "Calculator",
     "desc": "Simple Calculator that stores your history",
-    "image": "issuetrack",
+    "image": "calculator",
     "category": "basicweb",
     "links": {
       "view": "https://rohithreddy009.github.io/calculator",
