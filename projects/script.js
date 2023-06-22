@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
+            document.title = "Projects";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
@@ -66,21 +66,21 @@ function showProjects(projects) {
     projectsContainer.innerHTML = projectsHTML;
 
     // vanilla tilt.js
-    // VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    //     max: 20,
-    // });
-    // // vanilla tilt.js  
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+        max: 20,
+    });
+    // vanilla tilt.js  
 
-    // /* ===== SCROLL REVEAL ANIMATION ===== */
-    // const srtop = ScrollReveal({
-    //     origin: 'bottom',
-    //     distance: '80px',
-    //     duration: 1000,
-    //     reset: true
-    // });
+    /* ===== SCROLL REVEAL ANIMATION ===== */
+    const srtop = ScrollReveal({
+        origin: 'bottom',
+        distance: '80px',
+        duration: 1000,
+        reset: true
+    });
 
-    // /* SCROLL PROJECTS */
-    // srtop.reveal('.work .box', { interval: 200 });
+    /* SCROLL PROJECTS */
+    srtop.reveal('.work .box', { interval: 200 });
 
     // isotope filter products
     var $grid = $('.box-container').isotope({
